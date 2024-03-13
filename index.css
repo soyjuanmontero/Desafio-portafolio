@@ -1,0 +1,234 @@
+
+.open-sans,.main_titulo,.presentacion_titulo, .servicio_titulo, .contacto-titulo {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.servicio_titulo-descripcion,.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-regular, .presentacion_descripcion, .servicio_descripcion,.footer_año, .logos_texto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-width: 375px;
+    width: 100%;
+}
+container_header-main{
+height: 616px;}
+.header{
+display: flex;
+justify-content: space-between;
+padding-top: 42px;
+
+}
+.header_logo{
+    width: 54px;
+    height: 50px;
+    margin-left: 17px;
+}
+.header_burguer{
+    width: 36px;
+    height: 32px;
+    margin-right: 20px;
+
+}
+.main{
+    padding-top:94px ;
+
+}
+.main_titulo{
+    text-align: center;
+    
+    font-size: 48px;
+    line-height: 48px;
+
+}
+.main_mi-foto{
+    padding-top: 58px;
+width: 318px;
+height: 300px;
+margin: 0 auto;
+display: block;
+}
+.section-presentacion{
+    background-color: #141414;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 538px;
+}
+.presentacion_titulo{
+    margin: 0;
+    text-align: center;
+   
+    font-size: 32px;
+    line-height: 43.58px;
+    
+}
+.presentacion_descripcion{
+    font-size: 16px;
+    line-height: 18.75px;
+   
+    margin: 0 32px;
+}
+.presentacion_check{
+    
+    display: block;
+    margin: 0 auto;
+}
+.section-servicio{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1375px;
+    
+    padding: 66px 52px;
+}
+.servicio_titulo{
+margin-bottom: 42px;
+font-size: 32px;
+line-height: 43.58px;
+
+}
+.servicio-container{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.servicio_vector{
+width: 138px;
+height: 138px;
+}
+.servicio_titulo-descripcion{
+margin-bottom: -10px;
+font-size: 24px;
+line-height: 28.13px;
+/* font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal; */
+}
+.servicio_descripcion{
+   text-align: center;
+   font-size: 16px;
+   line-height: 18.75px;
+}
+.section-contacto{
+background-color: #141414;
+color: #FAFAFA;
+height: 660px;
+padding: 69px 20px;
+}
+.contacto-titulo{
+    font-size: 32px;
+    line-height: 43.58px;
+    text-align: center;
+
+}
+.contacto_form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+.contacto_label-nombre, .contacto_label-email,.contacto_label-mensaje{
+font-size: 13px;
+    line-height: 15.23px;
+}
+.contacto_input-nombre,.contacto_input-email,.contacto_textarea ,.contacto_boton{
+    font-size: 13px;
+    line-height: 15.23px;
+    height: 45px;
+    
+    
+        width: 100%;
+    
+}
+.contacto_label-nombre {}
+.contacto_input-nombre{
+margin-bottom: 20px;
+margin-top: 9px;
+}
+.contacto_label-email{
+
+}
+.contacto_input-email{
+margin-bottom: 20px;
+margin-top: 9px;
+}
+.contacto_label-mensaje{
+
+}.contacto_textarea{
+height: 113px;
+margin-bottom: 60px;
+margin-top: 9px;
+resize: none;
+}
+.contacto_boton{
+border-radius: 4px;
+background-color:#FFD953;
+}
+
+.footer{
+padding: 53px 0 82px 16px;
+background-color: #DBDBDB;
+height: 493px;
+color:#2C2C2C;
+}
+
+.footer_logo{
+    width: 77px;
+    height:71px;
+    margin-bottom: 18px;
+}
+.footer_año{
+margin-bottom: 85px;
+font-size: 13px;
+line-height: 15.23px;
+}
+
+.footer_logos{
+
+}
+.logos_container{
+width: 104px;
+}
+.logos_link{
+    text-decoration: none;
+
+    display: flex;
+    gap: 4px;
+    margin-bottom: 29px;
+    align-items: center;
+    color: #2C2C2C;
+}
+
+.logos_redes{
+width: 28px;
+height: 28px;
+margin-right: 4px;
+}
+
+.logos_texto{}
