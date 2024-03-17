@@ -20,10 +20,17 @@
 </head>
 <body class="
 "> <div class="container">
-    <div class="container_header-main"></div>
-    <header class="header">
+    
+    <header class="header" id="header-id">
         <img src="img/mi-logo.png" alt="logo" class="header_logo">
         <img src="img/burguer-svg.svg" alt="" class="header_burguer">
+        <ul class="header_ul">
+            <li class="header_li">
+                <a href="#presentacion" class="header_tag">Quien soy</a>
+                <a href="#servicio" class="header_tag">Servicios</a>
+                <a href="#contacto" class="header_tag">Contactame</a>
+            </li>
+        </ul>
         
     </header>
     <main class="main">
@@ -32,40 +39,43 @@
 </h1>        
 <img src="img/foto-perfil.jpeg" alt="" class="main_mi-foto">
     </main>
-    <section class="section-presentacion">
-        <h2 class="presentacion_titulo">Soy Juan Manuel </h2>
-        <p class=" presentacion_descripcion  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio odio reprehenderit harum. Facilis quo asperiores est non necessitatibus blanditiis, aliquid aspernatur, dignissimos veniam, soluta itaque maxime voluptatum fugiat quaerat ea!</p>
+    <section class="section-presentacion" id="presentacion">
+
+        <div class="container_titulo-descripcion">
+            <h2 class="presentacion_titulo">Soy Juan Manuel </h2>
+            <p class=" presentacion_descripcion  ">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+            id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus.
+            Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper.
+            Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+        </div>
         <img src="img/check.png" alt="" class="presentacion_check">
     </section>
-    <section class="section-servicio">
+    <section class="section-servicio" id="servicio">
         <h2 class="servicio_titulo">Mis servicios</h2>
-
-            <div class="servicio-container ">
+        <div class="servicio_container">
+            <div class="container_informacion ">
                 <div class="servicio_vector">
                     <img src="img/Vector.svg" alt="" >
                 </div>
                 <h3 class="servicio_titulo-descripcion ">Hago cosas</h3>
                 <p class="servicio_descripcion ">
-                    Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at
-                    enim
-                    id, sodales vehicula velit. Aenean lobortis posuere tristique.
+                Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+                id, sodales vehicula velit. Aenean lobortis posuere tristique.
                 </p>
             </div>
 
-            <div class="servicio-container ">
+            <div class="container_informacion">
                 <div class="servicio_vector">
                     <img src="img/Vector.svg" alt="">
                 </div>
                 <h3 class="servicio_titulo-descripcion">Y mas cosas</h3>
                 <p class="servicio_descripcion ">
-                    Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin
-                    at
-                    enim
+                    Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
                     id, sodales vehicula velit. Aenean lobortis posuere tristique.
                 </p>
             </div>
 
-            <div class="servicio-container ">
+            <div class="container_informacion">
                 <div class="servicio_vector">
                     <img src="img/Vector.svg" alt="">
                 </div>
@@ -77,11 +87,11 @@
                     id, sodales vehicula velit. Aenean lobortis posuere tristique.
                 </p>
             </div>
-        
+        </div>
       
         
     </section>
-    <section class="section-contacto">
+    <section class="section-contacto" id="contacto">
         <h2 class="contacto-titulo">Escribeme</h2>
         <form action="" class="contacto_form roboto-regular">
             <label for="nombre" class="contacto_label-nombre">
@@ -104,9 +114,12 @@
             <input type="button" value="Enviar" class="contacto_boton">
         </form>
     </section>
-    <footer class="footer">
-        <img src="img/mi-logo.png" alt="mi logo" class="footer_logo">
-        <p class="footer_año">© 2021 Juan Manuel</p>
+    <footer class="footer" >
+        <div class="footer_logo-año">
+
+            <img src="img/mi-logo.png" alt="mi logo" class="footer_logo">
+            <p class="footer_año">© 2021 Juan Manuel</p>
+        </div>
         <div class="footer_logos">
             <div class="logos_container">
                 <a href="https://www.instagram.com/soyjuanmontero/?igsh=NzhrbzlseWVld3lj" class="logos_link" >
@@ -123,7 +136,7 @@
             </a>
             </div>
             <div class="logos_container">
-                <a href="" class="logos_link">
+                <a href="https://github.com/soyjuanmontero" class="logos_link">
                     <img src="img/github.png" alt="" class="logos_redes">
                     <p class="logos_texto">Github</p>
                 </a>

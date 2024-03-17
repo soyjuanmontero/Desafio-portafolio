@@ -1,0 +1,12 @@
+{
+  "name": "desafio-uno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:soyjuanmontero/Desafio-portafolio.git",
+  "author": "Juan Manuel Montero <juanmanuel231295@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "predeploy": "yarn run build",
+      "deploy": "gh-pages -d build"
+  }
+}
