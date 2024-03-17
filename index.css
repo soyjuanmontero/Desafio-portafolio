@@ -31,14 +31,8 @@ body{
     min-width: 375px;
     width: 100%;
 }
-@media(min-width:900px)
-{
-    
-}
-.container_header-main{
-    
-    /* header */
-}
+
+
 .header{
 display: flex;
 justify-content: space-between;
@@ -165,7 +159,7 @@ display: block;
         justify-content: center;
     }
 }
-.container_titulo-descripcion{}
+
 
 @media(min-width:900px) {
     .container_titulo-descripcion{
@@ -241,9 +235,7 @@ text-align: center;
        margin-bottom:71px;
     }
 }
-.servicio_container{
 
-}
 @media(min-width:900px) {
    .servicio_container {
     display:flex;
@@ -344,21 +336,16 @@ font-size: 13px;
 
 
 
-.contacto_label-nombre {}
 .contacto_input-nombre{
 margin-bottom: 20px;
 margin-top: 9px;
 }
-.contacto_label-email{
 
-}
 .contacto_input-email{
 margin-bottom: 20px;
 margin-top: 9px;
 }
-.contacto_label-mensaje{
-
-}.contacto_textarea{
+.contacto_textarea{
 height: 113px;
 margin-bottom: 60px;
 margin-top: 9px;
@@ -418,9 +405,7 @@ line-height: 15.23px;
     }
 }
 
-.footer_logos{
 
-}
 @media(min-width:900px) {
     .footer_logos{
         width: 108px;
